@@ -8,9 +8,6 @@ spec:
     storage: 1Gi
   volumeMode: Filesystem
   accessModes:
-    - ReadWriteOnce
-
-  storageClassName: manual
-  
+    - ReadWriteOnce 
   hostPath:
     path: /data/db
